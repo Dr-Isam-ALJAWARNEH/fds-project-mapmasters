@@ -1,17 +1,17 @@
 # Optimizing Sensor Locations in Urban Environments  
 ### A Recommender System Based on Clustering and Multi-Source Data
 
-## 📌 Project Overview  
+##  Project Overview  
 This project proposes a data-driven recommender system for optimal placement of air quality sensors in urban environments. By combining traffic density, industrial proximity, population exposure, and historical air quality data, the system identifies high-impact areas for sensor deployment. It uses clustering algorithms (K-Means, DBSCAN) and a weighted scoring system to recommend the most effective locations for environmental monitoring.
 
-## 👥 Team Members  
+##  Team Members  
 - **Fatima Alketbi**  
 - **Amna Alsuwaidi**
 - **Ayesha Aldoobi**
 - **Alanood ALMANSOORI**
   
 
-## 🛠️ Technologies and Tools   
+##  Technologies and Tools   
 - Google Colab / Jupyter Notebook  
 - Libraries:  
   - `pandas`  
@@ -38,12 +38,12 @@ Place the datasets files in your working directory or upload them to your Colab 
    - Sensor recommendations  
    - An interactive map saved as `sensor_locations_map.html`
 
-## 📈 Sample Output  
+##  Sample Output  
 - Scatter plots showing geohash-based sampling  
 - Clustered regions highlighting sensor priority zones  
 - Interactive HTML map displaying final recommended locations
 
-## 📌 Goal  
+##  Goal  
 To support smart city planning and environmental health efforts by guiding efficient, data-backed sensor deployment.
 
 ---
