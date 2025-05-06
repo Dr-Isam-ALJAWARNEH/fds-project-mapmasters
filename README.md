@@ -7,6 +7,8 @@ This project proposes a data-driven recommender system for optimal placement of 
 ## 👥 Team Members  
 - **Fatima Alketbi**  
 - **Amna Alsuwaidi**
+- **Ayesha Aldoobi**
+- **Alanood ALMANSOORI**
   
 
 ## 🛠️ Technologies and Tools   
