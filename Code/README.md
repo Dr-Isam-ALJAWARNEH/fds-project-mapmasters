@@ -3,7 +3,7 @@
  
 This project analyzes the relationship between air quality (PM2.5) and urban mobility (taxi trip density) using spatio-temporal clustering techniques. It combines air pollution data and taxi activity data, performs feature engineering, and applies clustering algorithms to identify meaningful spatial regions and guide sensor placement.
 
-##  Key Features  
+##  Key Features
 - Temporal Aggregation: Groups both AQ and taxi data into 5-hour blocks to capture urban activity phases.
 - Spatial Encoding: Uses Geohash for spatial grouping.
 - Feature Engineering: Computes taxi density and average PM2.5 per region & time.
