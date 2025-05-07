@@ -1,5 +1,4 @@
 # Step 3: Geohash Grouping and Feature Aggregation
-# Define a helper function to compute geohashes based on latitude and longitude
 def geohash_group(df, lat_col, lon_col, precision=5):
     """
     Adds a 'geohash' column to the DataFrame based on latitude and longitude.
@@ -18,7 +17,6 @@ def geohash_group(df, lat_col, lon_col, precision=5):
     return df
 
 # Apply geohash encoding to AQ data
-aq_df = geohash_group(aq_df, 'latitude', 'longitude')
 
 # Apply geohash encoding to Taxi data
 taxi_df = geohash_group(taxi_df, 'pickup_latitude', 'pickup_longitude')
