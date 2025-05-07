@@ -36,7 +36,7 @@ Place the datasets files in your working directory or upload them to your Colab 
 4. Final output:
    - Cluster visualizations  
    - Sensor recommendations  
-   - An interactive map saved as `sensor_locations_map.html`
+   - An interactive map saved as `sensor_locations_map.html
 
 ##  Sample Output
 - Scatter plots showing geohash-based sampling  
