@@ -4,7 +4,7 @@
 ##  Project Overview  
 This project proposes a data-driven recommender system for optimal placement of air quality sensors in urban environments. By combining traffic density, industrial proximity, population exposure, and historical air quality data, the system identifies high-impact areas for sensor deployment. It uses clustering algorithms (K-Means, DBSCAN) and a weighted scoring system to recommend the most effective locations for environmental monitoring.
 
-##  Team Members  
+##  Team Members
 - **Fatima Alketbi**  
 - **Amna Alsuwaidi**
 - **Ayesha Aldoobi**
