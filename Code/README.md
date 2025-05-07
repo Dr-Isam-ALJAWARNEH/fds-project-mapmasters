@@ -1,4 +1,4 @@
-# Optimizing Sensor Locations in Urban Environments  
+# Optimizing Sensor Locations in Urban Environments
 ### A Recommender System Based on Clustering and Multi-Source Data
  
 This project analyzes the relationship between air quality (PM2.5) and urban mobility (taxi trip density) using spatio-temporal clustering techniques. It combines air pollution data and taxi activity data, performs feature engineering, and applies clustering algorithms to identify meaningful spatial regions and guide sensor placement.
