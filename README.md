@@ -13,7 +13,7 @@ This project proposes a data-driven recommender system for optimal placement of 
 
 ##  Technologies and Tools   
 - Google Colab / Jupyter Notebook  
-- Libraries:  
+- Libraries used for this project:  
   - `pandas`  
   - `geopandas`  
   - `matplotlib`  
