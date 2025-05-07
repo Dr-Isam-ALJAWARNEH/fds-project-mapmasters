@@ -25,7 +25,6 @@ This project proposes a data-driven recommender system for optimal placement of 
 
 ##  Dataset Requirements  
 Place the datasets files in your working directory or upload them to your Colab environment  
-
 ##  How to Run the Project  
 1. Open `code.ipynb` in Google Colab or Jupyter Notebook.  
 2. Make sure all required datasets are uploaded.  
