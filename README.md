@@ -45,6 +45,5 @@ Place the datasets files in your working directory or upload them to your Colab 
 
 ##  Goal  
 To support smart city planning and environmental health efforts by guiding efficient, data-backed sensor deployment.
-
 ---
 
