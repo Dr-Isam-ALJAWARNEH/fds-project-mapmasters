@@ -43,3 +43,16 @@ print(taxi_df.head())
 
 # Print the total number of taxi trip records loaded
 print(f" Total Taxi Records Loaded: {len(taxi_df)}")
+
+# Step 4: Compute Weighted Feature for Clustering
+
+# Define the weight (lambda) that determines the importance of air quality in the combined feature
+lambda_ = 0.6  # Weight for air quality influence (60% AQ, 40% taxi density)
+
+# Create a new weighted feature that blends PM2.5 air quality and taxi density
+# This will be used as a combined metric for clustering
+features_df['weighted_feature'] = lambda_ * features_df['pm25'] + (1 - lambda_) * features_df['taxi_density']
+
+# Decode the geohash back into latitude and longitude coordinates
+# This step is useful for visualizing or mapping the clusters later
+features_df[['latitude', 'longitude']] = features_df['geohash'].apply(lambda g: pd.Series(pgh.decode(g)))
