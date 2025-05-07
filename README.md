@@ -38,7 +38,7 @@ Place the datasets files in your working directory or upload them to your Colab 
    - Sensor recommendations  
    - An interactive map saved as `sensor_locations_map.html`
 
-##  Sample Output  
+##  Sample Output
 - Scatter plots showing geohash-based sampling  
 - Clustered regions highlighting sensor priority zones  
 - Interactive HTML map displaying final recommended locations
