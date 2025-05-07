@@ -12,7 +12,7 @@ This project analyzes the relationship between air quality (PM2.5) and urban mob
 - Evaluation: Uses Silhouette Score to assess cluster quality.
 - Sensor Placement: Derives representative locations for air quality sensors from clustering results.
   
-##  Technologies Used 
+##  Technologies Used
 - Python (Pandas, NumPy, Matplotlib, scikit-learn)
 - Geospatial Tools: pygeohash
 - Clustering Algorithms: DBSCAN, KMeans
